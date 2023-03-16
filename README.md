@@ -4,5 +4,5 @@ This repository includes all links to my solutions to the Frontend Mentor challe
 
 ### Links
 
-- [Live Site](https://frontend-mentor-challenges-solutions.netlify.app/)
+- [All in One](https://frontend-mentor-challenges-solutions.netlify.app/)
 - [Challenge Repository](https://github.com/ecemgo/frontend-mentor-challenges)
