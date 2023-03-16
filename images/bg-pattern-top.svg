@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="bg-pattern-top.svg"
+   id="svg11"
+   version="1.1"
+   height="978"
+   width="978">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg11"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:cy="511.26935"
+     inkscape:cx="632.73925"
+     inkscape:zoom="0.62586511"
+     showgrid="false"
+     id="namedview13"
+     inkscape:window-height="1013"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs7">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(1.0010241,0.99897698)"
+       id="a"
+       y2="978.00051"
+       x2="488.49974"
+       y1="-96.567802"
+       x1="611.52271">
+      <stop
+         id="stop2"
+         offset="0%"
+         stop-opacity="0"
+         stop-color="#0989B4" />
+      <stop
+         id="stop4"
+         offset="99.94%"
+         stop-color="#53FFEE" />
+    </linearGradient>
+  </defs>
+  <ellipse
+     style="fill:url(#a)"
+     id="ellipse9"
+     opacity=".5"
+     fill-rule="evenodd"
+     ry="488"
+     rx="489"
+     cy="489"
+     cx="489"
+     transform="rotate(-135 489 489)"
+     fill="url(#a)" />
+</svg>

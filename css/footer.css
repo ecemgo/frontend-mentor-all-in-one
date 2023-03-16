@@ -1,0 +1,52 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.media-container {
+  position: relative;
+  display: flex;
+  width: 15rem;
+  height: 4.375rem;
+  border-radius: 0.75rem 0.75rem 0 0;
+  background: #e3b6f6;
+}
+
+.indicator {
+  position: absolute;
+  bottom: 1.438rem;
+  left: 2.5rem;
+  margin-left: -0.125rem;
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  background: #464655;
+  transition: all 0.5s;
+}
+
+input {
+  position: absolute;
+  transform: scale(0);
+}
+
+label {
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex: 1 1 auto;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+label:hover {
+  color: var(--bg-main);
+  text-shadow: 6px 6px 10px rgba(51, 51, 51, 1);
+}
+
+.icon {
+  color: var(--bg-main);
+  font-size: 1.8rem;
+  bottom: 1.5rem;
+  transition: all 0.15s;
+}
