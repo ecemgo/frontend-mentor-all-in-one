@@ -28,8 +28,9 @@ body {
   display: grid;
   place-content: center;
   min-height: 100vh;
-  background-image: url(../images/bg-pattern-top.svg), url(../images/top-background.svg);
-  background-position: right bottom, left top;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/top-background.svg);
+  background-position: right bottom, left top 4rem;
   background-repeat: no-repeat, no-repeat;
   background-color: var(--bg-main);
   margin: 0;
