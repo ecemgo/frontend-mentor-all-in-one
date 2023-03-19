@@ -2,7 +2,25 @@
 
 This repository includes all links to my solutions to the Frontend Mentor challenges. You can reach the Frontend Mentor challenges I've done, my repositories, and live sites via [this live URL]().
 
+## Table of contents
+
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Useful resources](#useful-resources)
+- [Author](#author)
+
 ### Links
 
 - [All in One](https://frontend-mentor-challenges-solutions.netlify.app/)
 - [Challenge Repository](https://github.com/ecemgo/frontend-mentor-challenges)
+
+### Useful resources
+
+- [ScrollReveal](https://scrollrevealjs.org/) - It is a source for animation and it's been used for installation.
+- [ScrollReveal Effect](https://www.youtube.com/watch?v=Zwa5z9Ws7y4) - It's been used for how to apply ScrollReveal JS.
+
+## Author
+
+- Website - [ecemgo.com](https://www.ecemgo.com/)
+- Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
+- Twitter - [@ecemgo](https://twitter.com/ecemgo)
