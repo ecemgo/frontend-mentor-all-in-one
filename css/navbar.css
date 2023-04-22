@@ -11,7 +11,6 @@ header {
   padding: 1em 0;
   position: relative;
   border-radius: 0 0 0.75rem 0.75rem;
-
 }
 
 header::after {
@@ -153,10 +152,8 @@ header::after {
   width: 1px;
 }
 
-
 @media (min-width: 53em) {
-    .logo {
-        margin-left: 3rem;
-    }
+  .logo {
+    margin-left: 3rem;
   }
-  
+}

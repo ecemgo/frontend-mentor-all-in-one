@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+
 :root {
   --bg-main: rgb(255, 250, 250);
 
@@ -57,19 +59,72 @@ main {
 }
 
 .challenge-box img {
-  width: 100%;
-  border-radius: 0.5rem 0.5rem 0 0;
-  transition: all 0.5s ease-in-out;
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.challenge-box img:hover {
-  transform: scale(0.95);
-  -webkit-transform: scale(0.95);
-  -moz-transform: scale(0.95);
-  border-radius: 0.5rem;
-  border: 1rem solid transparent;
-  background: linear-gradient(black, black) padding-box,
-    linear-gradient(45deg, #3bccc0, #c86feb) border-box;
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(60, 205, 193, 0.6),
+    rgba(200, 111, 235, 0.8)
+  );
+  border-radius: 0.5rem 0.5rem 0 0;
+  list-style:none;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.links li{
+  display:inline-block;
+}
+
+.links li a{
+  display:block;
+  color:#fff;
+  font-size: 1rem;
+  font-weight: var(--fw-600);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align:center;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.links a:hover {
+  border-bottom: 3px dotted #fff;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+.links a:focus {
+  border: 3px dotted #fff;
+  border-radius: 10px;
 }
 
 .flow {
@@ -94,19 +149,18 @@ span {
   margin: 1.5rem 0;
 }
 
-.links a {
+.detail a {
   font-size: 1rem;
   font-weight: var(--fw-600);
   letter-spacing: 2px;
   line-height: 2;
-  text-transform: uppercase;
   color: #c86feb;
   text-decoration: none;
   margin-right: 0.7rem;
   transition: all 0.5s ease-in-out;
 }
 
-.links a:hover {
+.detail a:hover {
   color: #3bccc0;
   border-bottom: 0.2em dotted #3bccc0;
   transform: scale(1.1);
