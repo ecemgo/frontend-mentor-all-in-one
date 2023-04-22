@@ -10,7 +10,6 @@ header {
   color: rgb(255, 250, 250);
   padding: 1em 0;
   position: relative;
-  border-radius: 0 0 0.75rem 0.75rem;
 }
 
 header::after {
