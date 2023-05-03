@@ -16,33 +16,78 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Frontend Mentor Challenges & Solutions</title>
 </head>
 <body>
     <header>
-        <div class="container">
-          <h1 class="logo">Frontend Mentor Challenges</h1>
-          <nav class="site-nav">
-            <button class="menu-toggle" 
-                    aria-controls="primary-navigation"
-                    aria-expanded="false">
-              <span class="visually-hidden">Menu</span>
-              <div class="hamburger" aria-hidden="true"></div>
-            </button>
-            <ul data-state="closed" class="primary-navigation" id="primary-navigation">
-              <li><a href="https://www.ecemgo.com/" target="_blank"><i class="fa-solid fa-address-card site-nav--icon"></i>about me</a></li>
-              <li><a href="https://github.com/ecemgo" target="_blank"><i class="fa-solid fa-folder-open site-nav--icon"></i>github</a></li>
-              <li><a href="https://www.frontendmentor.io/profile/ecemgo" target="_blank"><i class="fa-solid fa-laptop-code site-nav--icon"></i>frontend mentor</a></li>
-            </ul>
-          </nav>
-        </div>
-    </header>
+        <nav class="navbar">
+          <a href="#" class="logo">Frontend Mentor Solutions</a>
+          <ul class="navbar-nav">
+            <li><a href="https://www.ecemgo.com/" target="_blank" class="nav-item">About Me</a></li>
+            <li><a href="https://github.com/ecemgo" target="_blank" class="nav-item">Github</a></li>
+            <li><a href="https://www.frontendmentor.io/profile/ecemgo" target="_blank" class="nav-item">Frontend Mentor</a></li>
+          </ul>
+    
+          <button class="nav-toggle-btn">
+            <ion-icon name="menu-outline" id="open-icon" alt="hamburger menu" aria-label="hamburger menu"></ion-icon>
+            <ion-icon name="close-outline" id="close-icon" alt="hamburger menu" aria-label="hamburger menu"></ion-icon>
+          </button>
+        </nav>
+      </header>
 
     <main>
+        <article class="challenge-box even">
+            <div class="content">
+                <img src="./images/desktop-preview-20.jpg" alt="interactive rating component">
+                <ul class="overlay links">
+                    <li><a href="https://ecemgo-interactive-rating-component.netlify.app/" target="_blank">Live</a></li>
+                    <li><a href="https://github.com/ecemgo/frontend-mentor-challenges/tree/main/interactive-rating-component" target="_blank">Github</a></li>
+                    <li><a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">Challenge</a></li>
+                </ul>
+            </div>
+            <div class="flow">
+                <h1>Interactive Rating Component</h1>
+                <div>
+                    <span style="color: #6abecd;">html</span>
+                    <span style="color: #3e54a3;">css</span>
+                    <span style="color: #cf6390;">js</span>
+                </div>
+                <p class="paragraph">
+                    This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!
+                </p>
+                <div class="detail">
+                    <a href="https://www.frontendmentor.io/solutions/interactive-rating-component-with-the-darkcolorful-theme-BtpOqZVC5B" target="_blank">Show more about the challenge</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="challenge-box odd">
+            <div class="content">
+                <img src="./images/desktop-preview-19.jpg" alt="sunnyside agency landing page">
+                <ul class="overlay links">
+                    <li><a href="https://ecemgo-sunnyside-agency-landing-page.netlify.app/" target="_blank">Live</a></li>
+                    <li><a href="https://github.com/ecemgo/frontend-mentor-challenges/tree/main/sunnyside-agency-landing-page" target="_blank">Github</a></li>
+                    <li><a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef" target="_blank">Challenge</a></li>
+                </ul>
+            </div>
+            <div class="flow">
+                <h1>Sunnyside Agency Landing Page</h1>
+                <div>
+                    <span style="color: #6abecd;">html</span>
+                    <span style="color: #3e54a3;">css</span>
+                    <span style="color: #cf6390;">js</span>
+                </div>
+                <p class="paragraph">
+                    This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.
+                </p>
+                <div class="detail">
+                    <a href="https://www.frontendmentor.io/solutions/responsive-sunnyside-agency-landing-page-html-css-and-js-CNXvVEcuE6" target="_blank">Show more about the challenge</a>
+                </div>
+            </div>
+        </article>
+
         <article class="challenge-box even">
             <div class="content">
                 <img src="./images/desktop-preview-18.jpg" alt="article preview component">
@@ -70,7 +115,7 @@
 
         <article class="challenge-box odd">
             <div class="content">
-                <img src="./images/desktop-preview-17.jpg" alt="gitHub user search app">
+                <img src="./images/desktop-preview-17.jpg" alt="github user search app">
                 <ul class="overlay links">
                     <li><a href="https://ecemgo-github-user-search-app.netlify.app/" target="_blank">Live</a></li>
                     <li><a href="https://github.com/ecemgo/frontend-mentor-challenges/tree/main/github-user-search-app" target="_blank">Github</a></li>
@@ -509,5 +554,8 @@
 <script src="js/scroll.js"></script>
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/be6921a9a9.js" crossorigin="anonymous"></script>
+<!-- Ion Icons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

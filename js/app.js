@@ -1,25 +1,14 @@
-const menuToggle = document.querySelector(".menu-toggle");
-const siteNavigation = document.querySelector(".primary-navigation");
+const navbar = document.querySelector(".navbar-nav");
+const togglebtn = document.querySelector(".nav-toggle-btn");
+const navitem = document.querySelectorAll(".nav-item");
 
-//! open & close menu when clicking the menu
-menuToggle.addEventListener("click", () => {
-  const isOpened = menuToggle.getAttribute("aria-expanded") === "true";
-  isOpened ? closeMenu() : openMenu();
-});
+const hamburgermenu = function () {
+  navbar.classList.toggle("active");
+  togglebtn.classList.toggle("active");
+};
 
-function openMenu() {
-  menuToggle.setAttribute("aria-expanded", "true");
-  siteNavigation.setAttribute("data-state", "opened");
-}
-function closeMenu() {
-  menuToggle.setAttribute("aria-expanded", "false");
-  siteNavigation.setAttribute("data-state", "closing");
+togglebtn.addEventListener("click", hamburgermenu);
 
-  siteNavigation.addEventListener(
-    "animationend",
-    () => {
-      siteNavigation.setAttribute("data-state", "closed");
-    },
-    { once: true }
-  );
+for (let i = 0; i < navitem.length; i++) {
+  navitem[i].addEventListener("click", hamburgermenu);
 }
