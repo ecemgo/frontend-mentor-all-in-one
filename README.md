@@ -18,7 +18,7 @@ This repository includes all links to my solutions to the Frontend Mentor challe
 
 - [ScrollReveal](https://scrollrevealjs.org/) - It is a source for animation and it's been used for installation.
 - [ScrollReveal Effect](https://www.youtube.com/watch?v=Zwa5z9Ws7y4) - It's been used for how to apply ScrollReveal JS.
-- [Stack Abuse](https://stackabuse.com/scroll-to-top-in-vanilla-javascript/) - It's been used for scroll to top.
+- [Stack Abuse](https://stackabuse.com/scroll-to-top-in-vanilla-javascript/) - This document has been used to implement scrolling to the top.
 
 ## Author
 
