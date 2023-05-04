@@ -123,7 +123,7 @@ header {
 main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
+  gap: 5rem;
 
   padding: 5rem 2rem;
   width: min(95%, 75rem);
@@ -246,19 +246,65 @@ span {
   -moz-transform: scale(1.1);
 }
 
+.scroll-to-top {
+  position: relative;
+}
+
+.btn-position {
+  position: fixed;
+  bottom: 20px;
+  left: 45%;
+  z-index: 20;
+}
+
+.btn-style {
+  background-color: rgba(200, 111, 235, 0.3);
+  border: 1px solid #c86feb;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 /* FOOTER */
 
 footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  z-index: 30;
 }
 
 .media-container {
   position: relative;
   display: flex;
   width: 15rem;
-  height: 4.375rem;
+  height: 4rem;
   border-radius: 0.75rem 0.75rem 0 0;
   background: #e3b6f6;
 }
@@ -302,6 +348,7 @@ label:hover {
 }
 
 @media (max-width: 845px) {
+
   /* HEADER */
 
   .navbar {
@@ -369,5 +416,9 @@ label:hover {
 
   main {
     grid-template-columns: 1fr;
+  }
+
+  .btn-position {
+    left: 40%;
   }
 }
