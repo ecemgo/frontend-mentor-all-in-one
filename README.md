@@ -4,7 +4,6 @@ This repository includes all links to my solutions to the Frontend Mentor challe
 
 ## Table of contents
 
-- [Screenshot](#screenshot)
 - [Links](#links)
 - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -28,3 +27,4 @@ This repository includes all links to my solutions to the Frontend Mentor challe
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)
