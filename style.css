@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
 
 :root {
   --bg-main: rgb(255, 250, 250);
@@ -27,7 +27,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 body {
@@ -38,6 +38,7 @@ body {
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/top-background.svg);
   background-position: right bottom, left top 4rem;
+  background-size: 50% auto;
   background-repeat: no-repeat, no-repeat;
   background-color: var(--bg-main);
 }
@@ -49,6 +50,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+
   background: #e3b6f6;
   z-index: 20;
 }
@@ -66,7 +68,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 74px 24px;
+  padding: 24px 34px 24px;
 }
 
 .navbar-nav {
@@ -99,7 +101,7 @@ header {
 }
 
 .nav-item::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -0.3rem;
   left: 50%;
@@ -123,10 +125,10 @@ header {
 main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  gap: 4rem;
 
   padding: 5rem 2rem;
-  width: min(95%, 75rem);
+  width: min(85%, 65rem);
   margin-inline: auto;
   margin-top: 70px;
 }
@@ -212,7 +214,7 @@ h1 {
   font-weight: var(--fw-600);
   font-size: var(--fs-700);
   margin-bottom: 1rem;
-  background: linear-gradient(90deg, #c86feb 0,  #3bccc0 60%);
+  background: linear-gradient(90deg, #c86feb 0, #3bccc0 60%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -353,11 +355,10 @@ label:hover {
 }
 
 @media (max-width: 845px) {
-
   /* HEADER */
 
   .navbar {
-    padding: 32px 24px;
+    padding: 25px 34px;
   }
 
   .navbar-nav {
@@ -400,7 +401,7 @@ label:hover {
   }
 
   ion-icon {
-    font-size: 42px;
+    font-size: 35px;
     color: white;
   }
 
