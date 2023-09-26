@@ -310,27 +310,10 @@ footer {
 .media-container {
   position: relative;
   display: flex;
-  width: 15rem;
-  height: 4rem;
+  width: 17rem;
+  height: 4.5rem;
   border-radius: 0.75rem 0.75rem 0 0;
   background: #e3b6f6;
-}
-
-.indicator {
-  position: absolute;
-  bottom: 1.438rem;
-  left: 2.5rem;
-  margin-left: -0.125rem;
-  width: 0.25rem;
-  height: 0.25rem;
-  border-radius: 50%;
-  background: #464655;
-  transition: all 0.5s;
-}
-
-input {
-  position: absolute;
-  transform: scale(0);
 }
 
 label {
