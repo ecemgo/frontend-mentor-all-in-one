@@ -125,10 +125,10 @@ header {
 main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 4rem;
+  gap: 6rem;
 
   padding: 5rem 2rem;
-  width: min(85%, 65rem);
+  width: min(100%, 75rem);
   margin-inline: auto;
   margin-top: 70px;
 }
