@@ -41,6 +41,7 @@ body {
   background-size: 50% auto;
   background-repeat: no-repeat, no-repeat;
   background-color: var(--bg-main);
+  overflow-x: hidden;
 }
 
 /* HEADER */
