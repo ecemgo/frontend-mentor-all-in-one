@@ -191,6 +191,7 @@ main {
   text-align: center;
   margin-bottom: 0.5rem;
   padding: 0.3rem;
+  border-bottom: 3px dotted transparent;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -243,7 +244,7 @@ span {
   color: #c86feb;
   text-decoration: none;
   margin-right: 0.7rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .detail a:hover {
